@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		18D5F3201B597D66000D0FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5F31F1B597D66000D0FC1 /* AppDelegate.swift */; };
-		18D5F3221B597D66000D0FC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5F3211B597D66000D0FC1 /* ViewController.swift */; };
 		18D5F3251B597D66000D0FC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D5F3231B597D66000D0FC1 /* Main.storyboard */; };
 		18D5F3271B597D66000D0FC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D5F3261B597D66000D0FC1 /* Images.xcassets */; };
 		18D5F32A1B597D66000D0FC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D5F3281B597D66000D0FC1 /* LaunchScreen.xib */; };
 		18D5F3361B597D66000D0FC1 /* BruhaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5F3351B597D66000D0FC1 /* BruhaTests.swift */; };
+		18D5F3401B597F6E000D0FC1 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5F33F1B597F6E000D0FC1 /* SplashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		18D5F31A1B597D66000D0FC1 /* Bruha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bruha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D5F31E1B597D66000D0FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D5F31F1B597D66000D0FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18D5F3211B597D66000D0FC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18D5F3241B597D66000D0FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18D5F3261B597D66000D0FC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18D5F3291B597D66000D0FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18D5F32F1B597D66000D0FC1 /* BruhaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BruhaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D5F3341B597D66000D0FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D5F3351B597D66000D0FC1 /* BruhaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruhaTests.swift; sourceTree = "<group>"; };
+		18D5F33F1B597F6E000D0FC1 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				18D5F31F1B597D66000D0FC1 /* AppDelegate.swift */,
-				18D5F3211B597D66000D0FC1 /* ViewController.swift */,
+				18D5F33F1B597F6E000D0FC1 /* SplashViewController.swift */,
 				18D5F3231B597D66000D0FC1 /* Main.storyboard */,
 				18D5F3261B597D66000D0FC1 /* Images.xcassets */,
 				18D5F3281B597D66000D0FC1 /* LaunchScreen.xib */,
@@ -212,8 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D5F3221B597D66000D0FC1 /* ViewController.swift in Sources */,
 				18D5F3201B597D66000D0FC1 /* AppDelegate.swift in Sources */,
+				18D5F3401B597F6E000D0FC1 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
