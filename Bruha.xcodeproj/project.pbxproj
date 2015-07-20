@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A55A951B599C53001D097D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A55A941B599C53001D097D /* LoginViewController.swift */; };
+		18A55A971B599C61001D097D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A55A961B599C61001D097D /* SignUpViewController.swift */; };
 		18D5F3201B597D66000D0FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D5F31F1B597D66000D0FC1 /* AppDelegate.swift */; };
 		18D5F3251B597D66000D0FC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D5F3231B597D66000D0FC1 /* Main.storyboard */; };
 		18D5F3271B597D66000D0FC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D5F3261B597D66000D0FC1 /* Images.xcassets */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18A55A941B599C53001D097D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18A55A961B599C61001D097D /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		18D5F31A1B597D66000D0FC1 /* Bruha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bruha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D5F31E1B597D66000D0FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D5F31F1B597D66000D0FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 			children = (
 				18D5F31F1B597D66000D0FC1 /* AppDelegate.swift */,
 				18D5F33F1B597F6E000D0FC1 /* SplashViewController.swift */,
+				18A55A941B599C53001D097D /* LoginViewController.swift */,
+				18A55A961B599C61001D097D /* SignUpViewController.swift */,
 				18D5F3231B597D66000D0FC1 /* Main.storyboard */,
 				18D5F3261B597D66000D0FC1 /* Images.xcassets */,
 				18D5F3281B597D66000D0FC1 /* LaunchScreen.xib */,
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A55A951B599C53001D097D /* LoginViewController.swift in Sources */,
 				18D5F3201B597D66000D0FC1 /* AppDelegate.swift in Sources */,
+				18A55A971B599C61001D097D /* SignUpViewController.swift in Sources */,
 				18D5F3401B597F6E000D0FC1 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +417,7 @@
 				18D5F33B1B597D66000D0FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18D5F33C1B597D66000D0FC1 /* Build configuration list for PBXNativeTarget "BruhaTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				18D5F33E1B597D66000D0FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
